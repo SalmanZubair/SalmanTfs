@@ -1,0 +1,85 @@
+#ex1Slider .slider-selection {
+	background: #BABABA;
+}
+.hahaha{
+	position: relative;
+	height: 50px;
+	top:20px;
+}
+
+.barPartDiv{
+	height:8px;
+	float: left;
+}
+.marker{
+	height:18px;
+	width:18px;
+	border-radius:50%;
+	/*background-color: #ccc;*/
+	position: absolute;
+	top:-5px;
+}
+.rectMarker{
+	height:12px;
+	width:2px;
+	background-color: #ccc;
+	position: absolute;
+	top:-2px;
+}
+.minMark{
+	left:0;
+}
+
+.maxMark{
+	right:0;
+}
+
+.countDivPresent{
+	padding-top: 2px;
+    height: 20px;
+	width: 70px;
+	top:12px;
+	/* border: 1px pink solid; */
+	position:absolute;
+	border-radius: 3px;
+	font-weight: bold;
+}
+.countDivPresent:before{
+	content:'';
+	width:0;
+	height:0;
+	/* border: 12px solid transparent; */
+	border-top: 0px;
+	border-bottom-color: pink;
+	position: absolute;
+    left: calc(50% - 12px);
+    top: -12px;
+}
+
+.countDivPresent:after{
+	content:'';
+	width:0;
+	height:0;
+	/* border: 10px solid transparent; */
+	border-top: 0px;
+	border-bottom-color: white;
+	position: absolute;
+    left: calc(50% - 10px);
+    top: -10px;
+}
+
+.countDiv{
+	position:absolute;
+	top: -20px;
+    font-weight: bold;
+}
+
+
+.hahaha label {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -37px;
+}
+

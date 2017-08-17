@@ -1,0 +1,74 @@
+@media only screen and (max-width : 1100px){}
+
+@media only screen and (max-width : 800px){
+ 
+}
+
+ 
+
+@media only screen and (max-width : 760px){
+ 
+span.nameTitle{display:none;}
+.nav.navbar-nav > li > a.user-profile {padding-right: 15px;}
+.nav.navbar-nav > li > a.user-profile i{right:0}
+.greyBg {position: relative;
+top: 0;
+left: 0;
+right: 0;
+margin: auto;
+clear: both;margin-bottom: 14px;}
+.top_nav .navbar-right{top:0;}
+.plantContent{width: 100%; padding-right: 0;}
+.boilerHealthAlertMain ul li:nth-child(2){line-height: inherit;}
+
+header{top: 0;left: 0; width:100%;}
+
+.bckBtn, .bckBtn:hover{position: absolute;top: 24px;left: 72px; margin: 0;}
+.parameterDetails ul{width:100%;}
+.parameterDetails ul li:first-child, .parameterDetails ul li, .parameterDetails ul li:hover{padding: 0px 0 10px 0;}
+
+body{padding-top: 80px;}
+.breadcrumContainer{margin:0; padding:0;}
+.breadcrumContainer .paddingLeftNone{padding-right:0;}
+.breadcrumb{margin: 0; padding: 15px 0;}
+.nav-tabs{clear:both; margin-bottom: 5px;}
+.right.efficiencyDate{float: left;
+width: 100%;
+margin-top: 15px;
+}
+.right.efficiencyDate h4{padding-left:0; margin-bottom:5px;}
+.toggle{padding-bottom:0}
+div{clear:both}
+
+}
+
+@media only screen and (max-width : 700px){
+	
+	
+}
+
+
+@media only screen and (max-width : 620px){
+ .boilerHealthAlertMain {max-height: 110px;}
+	h3{line-height: 42px;}
+	h3 span{margin: 10px 0 0 0;}
+	
+	
+}
+
+@media only screen and (max-width : 500px){
+	.boilerHealthAlertMain {max-height: 260px;}
+	.plantContent ul li{display:list-item; float:none; width:100%!important;}
+	.plantContent{width: 106px;}
+	.plantContent ul li:nth-child(2){display:none;}
+	.plantContent ul li:nth-child(3){text-align: left;}
+}
+
+@media only screen and (max-width : 400px){
+ .navbar-nav .open .dropdown-menu.msg_list{width:306px;}
+	
+}
+
+@media only screen and (max-width : 340px){
+
+}
